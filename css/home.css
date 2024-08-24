@@ -1,0 +1,90 @@
+@import "./global.css";
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 7.5rem;
+}
+
+nav ul li a {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  color: black;
+  &:hover {
+    color: darkgrey;
+  }
+}
+
+.nav-manu {
+  display: flex;
+  align-items: center;
+  gap: 4.5rem;
+}
+
+.hero-container {
+  width: 100%;
+  max-width: 144rem;
+  margin: auto;
+  height: 71.6rem;
+  background-image: url(../images/home/hero-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: 3rem;
+}
+
+.new-collection {
+  background-color: #fff3e3;
+  max-width: 64.3rem;
+  position: absolute;
+  top: 15rem;
+  left: 70rem;
+}
+
+.new-collection-info {
+  padding: 6.2rem 4.3rem 3.7rem 3.9rem;
+  text-align: left;
+}
+
+.new-collection-info span {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #333333;
+}
+
+.new-collection-info h1 {
+  font-weight: bold;
+  font-size: 5.2rem;
+  line-height: 6.5rem;
+  color: #b88e2f;
+  margin-top: 0.4rem;
+}
+
+.new-collection-info p {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #333333;
+  margin-top: 1.7rem;
+}
+
+.btn {
+  padding: 2.5rem 7.2rem;
+  background-color: #b88e2f;
+  color: #ffffff;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+  margin-top: 4.6rem;
+}
