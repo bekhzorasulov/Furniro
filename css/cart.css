@@ -1,1 +1,143 @@
 @import "../css/global.css";
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 7.5rem;
+}
+
+nav ul li a {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  color: black;
+  &:hover {
+    color: darkgrey;
+  }
+}
+
+.nav-manu {
+  display: flex;
+  align-items: center;
+  gap: 4.5rem;
+}
+
+.hero-container {
+  width: 100%;
+  max-width: 144rem;
+  margin: 3rem auto;
+  background-image: url(../images/cart/bg-image-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 6rem 60rem;
+}
+
+.hero-main p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+}
+
+.cart-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40rem;
+  margin-top: 7rem;
+  margin-bottom: 8.5rem;
+}
+
+.cart-box {
+  max-width: 81.7rem;
+}
+
+.cart-box ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 11.4rem;
+  padding: 1.5rem 14.2rem 1.6rem 14.2rem;
+  background-color: #f9f1e7;
+}
+
+.cart-box ul li {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.single-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5.5rem;
+}
+
+.single-product .active {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: #9f9f9f;
+}
+
+.btn {
+  padding: 0.4rem 1.3rem;
+  border: 0.1rem solid #9f9f9f;
+  border-radius: 0.5rem;
+}
+
+.cart-info {
+  max-width: 39.3rem;
+  background-color: #f9f1e7;
+  text-align: center;
+  padding: 1.5rem 7.5rem 8rem 7.5rem;
+}
+
+.cart-info h3 {
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+  margin-bottom: 6.2rem;
+}
+
+.cart-info a {
+  padding: 1.45rem 5.85rem;
+  border: 0.1rem solid black;
+  border-radius: 1.5rem;
+  margin-top: 4.5rem;
+  color: black;
+  &:hover {
+    color: #f9f1e7;
+    background-color: #9f9f9f;
+  }
+}
+
+.features-container {
+  width: 144rem;
+  background-color: #f9f1e7;
+  margin: 0 auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.features-container img {
+  max-width: 133rem;
+  /* padding-top: 10rem;
+  padding-bottom: 10rem; */
+  padding: 10rem 5rem;
+}

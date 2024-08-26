@@ -1,0 +1,69 @@
+hr {
+  margin-top: 8rem;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 124rem;
+  height: 50.5rem;
+  margin-top: 5rem;
+  margin: 0 auto;
+}
+
+.address-info a {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  color: #9f9f9f;
+  margin-top: 5rem;
+}
+
+.footer-content {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.links ul,
+.help ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5.5rem;
+}
+
+.links ul li a,
+.help ul li a {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  color: #000000;
+}
+
+ul li a.active {
+  color: #9f9f9f;
+}
+
+form p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+  color: #9f9f9f;
+  margin-bottom: 5.4rem;
+}
+
+form input {
+  border: none;
+  background-color: #ffffff;
+  border-bottom: 0.1rem solid #000000;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.footer-container p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  margin-top: 8.3rem;
+}
