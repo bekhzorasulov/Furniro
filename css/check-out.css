@@ -1,1 +1,115 @@
 @import "../css/global.css";
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 7.5rem;
+}
+
+nav ul li a {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  color: black;
+  &:hover {
+    color: darkgrey;
+  }
+}
+
+.nav-manu {
+  display: flex;
+  align-items: center;
+  gap: 4.5rem;
+}
+
+.hero-container {
+  width: 100%;
+  max-width: 144rem;
+  margin: 3rem auto;
+  background-image: url(../images/cart/bg-image-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 6rem 60rem;
+}
+
+.hero-main p {
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+}
+
+.info-form-container {
+  width: 100%;
+  max-width: 144rem;
+  margin: 0 auto;
+  padding-left: 19rem;
+  padding-right: 19rem;
+}
+
+.info-form-box {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 3rem;
+  margin-bottom: 12.3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3.6rem;
+}
+
+form h2 {
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 5.4rem;
+}
+
+#name,
+#city,
+#code,
+#company,
+#country,
+#email,
+#last-name,
+#phone,
+#product,
+#street,
+#text,
+#province,
+#additional {
+  width: 45.3rem;
+  height: 7.5rem;
+  border: 0.1rem solid #9f9f9f;
+  border-radius: 1rem;
+}
+
+.features-container {
+  width: 144rem;
+  background-color: #f9f1e7;
+  margin: 0 auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.features-container img {
+  max-width: 133rem;
+  /* padding-top: 10rem;
+                                  padding-bottom: 10rem; */
+  padding: 10rem 5rem;
+}
